@@ -1,3 +1,5 @@
+"Module simple calc."
+
 import click
 
 
@@ -75,6 +77,3 @@ def mod(x, y):
 
 if __name__ == "__main__":
     cli()
-
-
-
