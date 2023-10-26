@@ -1,0 +1,9 @@
+site_name: Example Site
+
+#This specifies the autogeneration portion
+pages:
+  - page: "math.md"
+    source: "./simple_calc.py"
+    functions:
+      - add
+      - mod
