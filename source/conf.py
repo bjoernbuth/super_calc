@@ -24,6 +24,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinxcontrib.restbuilder",
+    "sphinx_markdown_builder",
 ]
 
 napoleon_google_docstring = True
