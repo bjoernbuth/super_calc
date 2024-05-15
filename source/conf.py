@@ -21,6 +21,7 @@ release = "1.0.0"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinxcontrib.restbuilder",
@@ -34,6 +35,7 @@ napoleon_include_private_with_doc = False
 templates_path = ["_templates"]
 exclude_patterns = []
 
+autosummary_generate = True  # Turn on autosummary files automatically generation
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
