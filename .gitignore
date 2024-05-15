@@ -159,3 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 supercalc/simple/__pycache__/simple_calc.cpython-310.pyc
+supercalc/simple/__pycache__/simple_calc.cpython-310.pyc
+**/*.pyc
+supercalc/scientific/__pycache__/scientific_calc.cpython-310.pyc
